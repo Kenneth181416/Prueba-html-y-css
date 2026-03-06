@@ -40,8 +40,61 @@
             </article>
         </section>
        
+     <!-- Contact Section -->
+        <section class="contact-section">
+            <h2>Contact Form</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="button" class="submit-btn" disabled>Submit</button>
+            </form>
+        </section>
+        <!-- Scores Section -->
+        <section class="scores-section">
+            <h2>Student Scores</h2>
+            <table class="scores-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>HTML</th>
+                        <th>CSS</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>80</td>
+                        <td>90</td>
+                        <td>170</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>85</td>
+                        <td>95</td>
+                        <td>180</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="text-right"><strong>Total</strong></td>
+                        <td><strong>350</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
     </main>
-    
+    <!-- Footer -->
     <footer class="footer">
         <p>Contact us at: info@example.com</p>
     </footer>
